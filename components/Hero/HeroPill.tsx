@@ -6,7 +6,7 @@ export default function HeroPill() {
   return (
     <div className="bg-blue-100 hover:shadow transition-all w-fit rounded-full">
       <Link
-        href={config.links.x}
+        href="https://x.com/visualwayorg"
         target="_blank"
         className="flex flex-row justify-start items-center w-fit p-[3px] gap-1"
       >
@@ -14,7 +14,7 @@ export default function HeroPill() {
           <Twitter className="h-4 w-4" />
         </div>
         <div className="flex flex-row justify-start items-center gap-1 mr-2 text-blue-500">
-          <p className="text-sm font-medium">@Jaume_0to1</p>
+          <p className="text-sm font-medium">@VisualwayOrg</p>
           <ArrowRight className="h-4 w-4" />
         </div>
       </Link>
