@@ -12,16 +12,16 @@ export default function Hero() {
       <div className="flex flex-col justify-start items-center mt-20">
         <HeroPill />
         <h1 className="text-6xl font-medium mt-8 text-center max-w-[600px]">
-          Use this template to create your own site
+          Creating web apps and services to ease your workflow.
         </h1>
         <div className="flex flex-col justify-center items-center mt-7 gap-2 text-2xl text-neutral-500 text-center max-w-[500px]">
           <h2>
-            Increase your development speed. Customize it and make it yours.
+            A complete solution to all your online needs.
           </h2>
         </div>
-        <Link href={config.links.repo}>
+        <Link href="mailto:rainboestrykr@gmail.com">
           <Button size="lg" className="mt-6 text-md">
-            Get this template
+            Email us!
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
         </Link>
